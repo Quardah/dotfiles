@@ -175,6 +175,10 @@ bindsym $mod+F8 move container to workspace $w8
 bindsym $mod+F9 move container to workspace $w9
 bindsym $mod+F10 move container to workspace $w10
 
+# Thinkpad mod + back/forward to change vdesktop
+bindsym $mod+XF86Back  workspace prev
+bindsym $mod+XF86Forward  workspace next
+
 # assign programs to specific workspace
 assign [class="Firefox"] $w2
 #assign [class="llpp"] $w5
