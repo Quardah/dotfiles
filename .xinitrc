@@ -39,6 +39,7 @@ tilda &
 #default wm openbox
 exec i3
 #exec openbox-session
+#exec lxde-session
 #exec startkde
 #urxvt -e irssi
 #basket
