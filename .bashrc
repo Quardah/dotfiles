@@ -35,6 +35,8 @@ alias mtl='curl -4 http://wttr.in/Montrea'
 alias moon='curl -4 http://wttr.in/Moon'
 alias olivil='pacman -Q | wc -l'
 alias MS='cd /home/jape/MS'
+
+#now a script cuz a single cmd doesn't work (didn't investigate wtv)
 #alias fuckingsteam="Exec=env LD_PRELOAD='/usr/$LIB/libstdc++.so.6 /usr/$LIB/libgcc_s.so.1 /usr/$LIB/libxcb.so.1 /usr/$LIB/libgpg-error.so' /usr/bin/steam %U"
 
 #ThinkPad TV alias here (Thanks to nouveau open source driver, you can output on a TV with a T420 with these aliases)
