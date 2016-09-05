@@ -3,7 +3,7 @@ dotfiles
 
 most of my important dotfiles.
 
-folders must be joined into your .config/ file in your home. (13, 13status and openbox)
+folders must be joined into your .config/ file in your home. (i3, i3status and openbox)
 
 while .Xdefaults is depreciated, it still works as of today and can easily be ported into .Xressources if you must do so.
 
