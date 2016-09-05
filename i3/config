@@ -61,7 +61,7 @@ floating_modifier $mod
 
 # Launch bindings
 bindsym $mod+Return exec urxvt
-bindcode $mod+51 exec firefox-aurora
+bindcode $mod+51 exec chromium
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -133,18 +133,18 @@ for_window [class="^Steam$" title=".* CD key"] floating enable
 for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
 for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 
-#firefox shits
+#chrome shits
 
-for_window [class="^Firefox$" title="^Library$"] floating enable
+#for_window [class="^Chromium$" title="^Library$"] floating enable
 
 # fancy workspace variables
 set $w1 "1:  "
-set $w2 "2:  "
-set $w3 "3:  "
+set $w2 "2:  "
+set $w3 "3:  "
 set $w4 "4:  "
 set $w5 "5:  "
 set $w6 "6:  "
-set $w7 "7: "
+set $w7 "7: "
 set $w8 "8:  "
 set $w9 "9:  "
 set $w10 "10:  "
@@ -180,7 +180,7 @@ bindsym $mod+XF86Back  workspace prev
 bindsym $mod+XF86Forward  workspace next
 
 # assign programs to specific workspace
-assign [class="Firefox"] $w3
+#assign [class="Chromium"] $w3
 #assign [class="llpp"] $w5
 #assign [class="Wine" instance="WINWORD.EXE"] $w6
 #assign [class="Wine" instance="EXCEL.EXE"] $w7 

@@ -36,16 +36,20 @@ alias moon='curl -4 http://wttr.in/Moon'
 alias olivil='pacman -Q | wc -l'
 alias MS='cd /home/jape/MS'
 
+alias ison='cat /proc/acpi/bbswitch'
+alias fan='cat /proc/acpi/ibm/fan'
+
 #now a script cuz a single cmd doesn't work (didn't investigate wtv)
 #alias fuckingsteam="Exec=env LD_PRELOAD='/usr/$LIB/libstdc++.so.6 /usr/$LIB/libgcc_s.so.1 /usr/$LIB/libxcb.so.1 /usr/$LIB/libgpg-error.so' /usr/bin/steam %U"
 
-#ThinkPad TV alias here (Thanks to nouveau open source driver, you can output on a TV with a T420 with these aliases)
-alias tvon='xrandr --setprovideroutputsource nouveau modesetting; xrandr --output DP-1-1 --auto --above LVDS2'
-alias tvoff='xrandr --output DP-1-1 --off; xrandr --setprovideroutputsource nouveau 0x0'
-alias offload='xrandr --setprovideroffloadsink nouveau modesetting'
+#ThinkPad TV alias here (old; nouveau not present)
+#alias tvon='xrandr --setprovideroutputsource nouveau modesetting; xrandr --output DP-1-1 --auto --above LVDS2'
+#alias tvoff='xrandr --output DP-1-1 --off; xrandr --setprovideroutputsource nouveau 0x0'
+#alias offload='xrandr --setprovideroffloadsink nouveau modesetting'
+#alias offload='xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto'
 #alias offloadoff='xrandr --setprovideroffloadsink modesetting 0x0'
 
-
+#crap that never worked
 #alias cisco="GTK_THEME=Vertex-Light packettracer"
 #alias kandybar="candybar -c ~/.config/candybar/candybar.json -h 18 -m 0 -p top"
 
