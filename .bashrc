@@ -35,6 +35,7 @@ alias mtl='curl -4 http://wttr.in/Montrea'
 alias moon='curl -4 http://wttr.in/Moon'
 alias olivil='pacman -Q | wc -l'
 alias MS='cd /home/jape/MS'
+alias 710='cd ~/Documents/LOG710'
 
 alias ison='cat /proc/acpi/bbswitch'
 alias fan='cat /proc/acpi/ibm/fan'
