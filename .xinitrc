@@ -36,6 +36,9 @@ tilda &
 #tpset "Evdev Wheel Emulation Axes" 6 7 4 5
 #tpset "Device Accel Constant Deceleration" 0.95
 
+# 11 oct 2016 : added compton
+compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &
+
 #default wm openbox
 exec i3
 #exec openbox-session

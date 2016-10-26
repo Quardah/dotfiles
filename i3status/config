@@ -19,16 +19,17 @@ general {
 #order += "disk /"
 #order += "disk /home/"
 order += "volume Master"
-order += "volume Capture"
+#order += "volume Capture"
 order += "wireless _first_"
 #order += "load"
 order += "battery 0"
 order += "tztime local"
 
+
 volume Master {
          format = " : %volume"
-         format_muted = " : MUTE"
-         device = "pulse:0"
+         format_muted = " : MUTE" 
+		 device = "default"
          mixer = "Master"
          mixer_idx = 0
 }

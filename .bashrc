@@ -17,12 +17,12 @@ export PATH="~/.bin:$PATH"
 #alias aviau='cd ~/go/src/github.com/aviau/log210'
 alias home='cd ~/'
 alias cd..='cd ..'
-alias ll='ls -alF --color=auto'
+alias ll='ls -alhF --color=auto --group-directories-first --quoting=literal'
 alias d='pacman -Ss'
 alias speedup='sudo cpupower frequency-set -g performance'
 alias speeddown='sudo cpupower frequency-set -g powersave'
 alias powersave='sudo powertop --auto-tune'
-alias firefox='aurora'
+#alias firefox='aurora'
 #alias enw='emacs -nw'
 alias night='redshift -O 3500'
 alias day='redshift -O 5100'
@@ -35,13 +35,20 @@ alias mtl='curl -4 http://wttr.in/Montrea'
 alias moon='curl -4 http://wttr.in/Moon'
 alias olivil='pacman -Q | wc -l'
 alias MS='cd /home/jape/MS'
+alias drift='primusrun ~/My\ Games/drift/linux/driftstage.x86_64'
 alias 710='cd ~/Documents/LOG710'
+#alias test='echo "salut"'
+alias recompton='compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &'
+
+#pulseaudio dbus load if fails again
+alias pulseisfuckd='pactl load-module  module-dbus-protocol'
 
 alias ison='cat /proc/acpi/bbswitch'
 alias fan='cat /proc/acpi/ibm/fan'
 
 #now a script cuz a single cmd doesn't work (didn't investigate wtv)
 #alias fuckingsteam="Exec=env LD_PRELOAD='/usr/$LIB/libstdc++.so.6 /usr/$LIB/libgcc_s.so.1 /usr/$LIB/libxcb.so.1 /usr/$LIB/libgpg-error.so' /usr/bin/steam %U"
+#alias winesteam='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam/Steam.exe'
 
 #ThinkPad TV alias here (old; nouveau not present)
 #alias tvon='xrandr --setprovideroutputsource nouveau modesetting; xrandr --output DP-1-1 --auto --above LVDS2'
