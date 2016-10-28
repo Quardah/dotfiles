@@ -12,7 +12,7 @@ PS1='[\u@\h \W]\$ '
 export QT_STYLE_OVERRIDE=GTK+
 export EDITOR=nano
 #export GOPATH=/home/jape/go
-export PATH="~/.bin:$PATH"
+export PATH="/home/jape/.bin:$PATH"
 
 #alias aviau='cd ~/go/src/github.com/aviau/log210'
 alias home='cd ~/'
