@@ -39,6 +39,10 @@ alias drift='primusrun ~/My\ Games/drift/linux/driftstage.x86_64'
 alias 710='cd ~/Documents/LOG710'
 #alias test='echo "salut"'
 alias recompton='compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &'
+alias killnvidia='sudo /usr/share/acpi_call/examples/turn_off_gpu.sh'
+
+# not working need to find a fix, too little ' and " u_u
+#alias totalressources=`ps -eo size,pid,user,command | awk '{ hr=$1/1024 ; printf("%13.6f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }' | sort | grep i3 | grep -v ssh | grep -v grep`
 
 #pulseaudio dbus load if fails again
 alias pulseisfuckd='pactl load-module  module-dbus-protocol'
@@ -46,16 +50,14 @@ alias pulseisfuckd='pactl load-module  module-dbus-protocol'
 alias ison='cat /proc/acpi/bbswitch'
 alias fan='cat /proc/acpi/ibm/fan'
 
-#now a script cuz a single cmd doesn't work (didn't investigate wtv)
-#alias fuckingsteam="Exec=env LD_PRELOAD='/usr/$LIB/libstdc++.so.6 /usr/$LIB/libgcc_s.so.1 /usr/$LIB/libxcb.so.1 /usr/$LIB/libgpg-error.so' /usr/bin/steam %U"
-#alias winesteam='wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam/Steam.exe'
+alias cdsteam='cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam'
 
 #ThinkPad TV alias here (old; nouveau not present)
 #alias tvon='xrandr --setprovideroutputsource nouveau modesetting; xrandr --output DP-1-1 --auto --above LVDS2'
 #alias tvoff='xrandr --output DP-1-1 --off; xrandr --setprovideroutputsource nouveau 0x0'
-#alias offload='xrandr --setprovideroffloadsink nouveau modesetting'
+alias offload='xrandr --setprovideroffloadsink 1 0'
 #alias offload='xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto'
-#alias offloadoff='xrandr --setprovideroffloadsink modesetting 0x0'
+alias offloadoff='xrandr --setprovideroffloadsink 0 0x0'
 
 #crap that never worked
 #alias cisco="GTK_THEME=Vertex-Light packettracer"

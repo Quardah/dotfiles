@@ -7,7 +7,7 @@
 #xmobar &
 
 # set alt-shift change keyboard (en_us and fr_ca)
-setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll,terminate:ctrl_alt_bksp us,ca
+setxkbmap -option grp:alt_shift_toggle,terminate:ctrl_alt_bksp us,ca
 
 #media keys bound with xbindkeys
 xbindkeys
@@ -38,6 +38,8 @@ tilda &
 
 # 11 oct 2016 : added compton
 compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &
+
+#exec mate-session
 
 #default wm openbox
 exec i3
