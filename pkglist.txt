@@ -1,219 +1,284 @@
-a2ps
-abcde
-acpi
-acpi_call
-acpid
-alsa-utils
-android-tools
-android-udev
-archey3
-autoconf
-autofs
-automake
-bash
-bash-completion
-basket
-bbswitch
-bc
-bind
-binutils
-bison
-bleachbit
-bluez
-bluez-utils
-brasero
-bumblebee
-bzip2
-calibre
-cdrdao
-chromium
-coreutils
-cpupower
-cryptsetup
-device-mapper
-dhcpcd
-dialog
-diffutils
-dmenu
-dmidecode
-doge
-dosfstools
-dvd+rw-tools
-e2fsprogs
-ecm-tools
-enigma
-ethtool
-fakeroot
-feh
-figlet
-file
-filesystem
-findutils
-flashplugin
-flex
-gawk
-gcc
-gcolor2
-gdmap
-gettext
-glibc
-gnome-sound-recorder
-gparted
-gpicview
-grep
-groff
-grub
-gvfs
-gvfs-mtp
-gzip
-htop
-hunspell-en
-hunspell-fr
-i3status
-icedtea-web
-ifuse
-imagemagick
-inetutils
-iproute2
-iputils
-irssi
-java-environment-common
-java-runtime-common
-jdk8-openjdk
-jfsutils
-jre8-openjdk
-k3b
-kalgebra
-kcalc
-kdegraphics-okular
-kodi
-kolourpaint
-leafpad
-less
-lib32-alsa-plugins
-lib32-curl
-lib32-nvidia-utils
-lib32-virtualgl
-libgsf
-libmtp
-libopenraw
-libreoffice-fresh
-libtool
-licenses
-linux
-linux-headers
-logrotate
-lsb-release
-lshw
-lvm2
-lxappearance
-lxappearance-obconf
-lxde-common
-lxde-icon-theme
-lxdm
-lxinput
-lxlauncher
-lxmusic
-lxpanel
-lxrandr
-lxsession
-lxtask
-lxterminal
-m4
-make
-man-db
-man-pages
-mdadm
-mednafen
-mp3gain
-mplayer
-nano
-netctl
-nethogs
-netsurf
-network-manager-applet
-networkmanager
-nm-connection-editor
-nvidia
-nvidia-settings
-nvidia-utils
-openbox
-openssh
-os-prober
-p7zip
-pacman
-patch
-pavucontrol
-pciutils
-pcmanfm
-pcmciautils
-perl
-pkg-config
-playonlinux
-polkit-gnome
-poppler-glib
-powertop
-ppsspp
-primus
-procps-ng
-psmisc
-pulseaudio
-pulseaudio-alsa
-redshift
-reiserfsprogs
-rxvt-unicode
-s-nail
-screenfetch
-scrot
-scummvm
-sdl2
-sdl2_ttf
-sdl_mixer
-sed
-shadow
-slock
-smartmontools
-steam
-sudo
-surf
-sysfsutils
-systemd-sysvcompat
-tar
-terminus-font
-texinfo
-thunar
-thunar-volman
-thunderbird-earlybird
-tilda
-tk
-tlp
-tp_smapi
-transmission-gtk
-ttf-dejavu
-tumbler
-unzip
-usbmuxd
-usbutils
-util-linux
-vi
-virtualbox
-vlc
-which
-wine
-winetricks
-wpa_supplicant
-x86_energy_perf_policy
-xarchiver
-xbindkeys
-xf86-input-libinput
-xf86-input-synaptics
-xfsprogs
-xorg-server
-xorg-server-utils
-xorg-twm
-xorg-xclock
-xorg-xev
-xorg-xinit
-xterm
-zip
-zsnes
+a2ps 4.14-7
+abcde 2.7.2-1
+acpi 1.7-1
+acpi_call 1.1.0-51
+acpid 2.0.28-1
+acpitool 0.5.1-6
+aic94xx-firmware 30-9
+alsa-oss 1.0.28-1
+alsa-utils 1.1.3-1
+android-tools 7.0.0_r21-1
+android-udev 20161014-1
+archey3 0.5-6
+atril 1.16.1-1
+autoconf 2.69-4
+autofs 5.1.2-1
+automake 1.15-2
+bash 4.4.005-2
+bash-completion 2.4-1
+basket 1.81-7
+bbswitch 0.8-55
+bc 1.06.95-3
+beep 1.3-3
+bind 9.11.0.P1-2
+binutils 2.27-1
+bison 3.0.4-2
+bleachbit 1.12-1
+bluez 5.43-2
+bluez-utils 5.43-2
+brasero 3.12.1-2
+bumblebee 3.2.1-12
+bzip2 1.0.6-5
+caja 1.16.1-1
+cdrdao 1.2.3-9
+cheese 3.22.1-1
+chromium 55.0.2883.87-1
+compton 0.1_beta2.5-4
+coreutils 8.26-1
+cower 16-1
+cowsay 3.03-9
+cpupower 4.8-1
+cryptsetup 1.7.3-1
+device-mapper 2.02.168-1
+dhcpcd 6.11.3-1
+dialog 1:1.3_20160828-1
+diffutils 3.5-1
+dmenu 4.6-1
+dmidecode 3.0-1
+dnsmasq 2.76-3
+doge 3.5.0-2
+dosfstools 4.0-3
+dvd+rw-tools 7.1-7
+e2fsprogs 1.43.3-1
+ecm-tools 1.03-1
+enigma 1.04-5
+ethtool 1:4.8-1
+evince 3.22.1-1
+fakeroot 1.21-2
+feh 2.18-1
+figlet 2.2.5-2
+file 5.29-1
+filesystem 2016.12-2
+findutils 4.6.0-2
+firewalld 0.4.4.2-1
+flashplugin 24.0.0.186-1
+flex 2.6.1-1
+gawk 4.1.4-2
+gcc 6.2.1-1
+gcc-libs 6.2.1-1
+gcolor2 0.4-7
+gdmap 0.8.1-4
+gettext 0.19.8.1-2
+glibc 2.24-2
+gnome-sound-recorder 3.20.2-1
+gourmet 0.17.4-4
+gparted 0.27.0-1
+gpick 0.2.5-6
+gpicview 0.2.5-2
+grep 2.26-1
+groff 1.22.3-7
+grub 1:2.02.beta3-4
+gvfs 1.30.3-1
+gvfs-mtp 1.30.3-1
+gzip 1.8-2
+higan 101-1
+htop 2.0.2-1
+hunspell-en 2016.11.20-1
+hunspell-fr 5.7-1
+i3-gaps-git 4.13-2
+i3status 2.10-2
+icedtea-web 1.6.2-2
+ifuse 1.1.3-3
+imagemagick 6.9.6.8-1
+inetutils 1.9.4-5
+inxi 2.3.5-1
+iproute2 4.9.0-1
+iputils 20161105.1f2bb12-1
+irssi 0.8.20-1
+java-environment-common 2-2
+java-runtime-common 2-2
+jdk8-openjdk 8.u112-1
+jfsutils 1.1.15-4
+jre8-openjdk 8.u112-1
+k3b 1:2.0.3a-7
+kalgebra 16.12.0-1
+kcalc 16.12.0-1
+kodi 16.1-5
+kolourpaint 16.12.0-1
+leafpad 0.8.18.1-5
+less 487-1
+lib32-alsa-plugins 1.1.1-1
+lib32-curl 7.51.0-1
+lib32-libpulse 9.0-2
+lib32-mesa-libgl 13.0.2-1
+lib32-mpg123 1.23.8-1
+lib32-nvidia-utils 375.26-2
+lib32-openal 1.17.2-1
+lib32-primus 20151110-3
+lib32-virtualgl 2.5.1-1
+libgsf 1.14.40-1
+libmtp 1.1.12-1
+libopenraw 0.1.0-1
+libreoffice-fresh 5.2.4-1
+libtool 2.4.6-6
+licenses 20140629-1
+linux 4.8.13-1
+linux-headers 4.8.13-1
+lm_sensors 3.4.0-2
+logrotate 3.11.0-1
+lsb-release 1.4-14
+lshw B.02.18-1
+lvm2 2.02.168-1
+lxappearance 0.6.2-1
+lxappearance-obconf 0.2.3-1
+lxde-common 0.99.2-1
+lxde-icon-theme 0.5.1-3
+lxdm 0.5.3-3
+lxinput 0.3.5-1
+lxlauncher 0.2.5-1
+lxmusic 0.4.7-1
+lxpanel 0.9.1-1
+lxrandr 0.3.1-1
+lxsession 1:0.5.2-2
+lxtask 0.1.7-1
+lxterminal 0.2.0-3
+m4 1.4.17-2
+make 4.2.1-1
+man-db 2.7.6.1-2
+man-pages 4.09-1
+marble 16.12.0-1
+marco 1.16.0-2
+mate-backgrounds 1.16.0-1
+mate-control-center 1.16.0-1
+mate-desktop 1.16.1-1
+mate-icon-theme 1.16.0-1
+mate-menus 1.16.0-1
+mate-notification-daemon 1.16.1-1
+mate-panel 1.16.0-1
+mate-polkit 1.16.0-1
+mate-session-manager 1.16.0-2
+mate-settings-daemon 1.16.0-1
+mate-themes 3.22.4-1
+mate-user-guide 1.16.0-1
+mdadm 3.4-1
+mednafen 0.9.39.2-1
+minecraft latest-25
+mp3gain 1.5.2-3
+mplayer 37857-1
+ms-sys 1:2.4.1-1
+nano 2.7.2-1
+netctl 1.12-2
+nethogs 0.8.5-1
+netsurf 3.6-1
+network-manager-applet 1.4.2-1
+networkmanager 1.4.4-1
+nm-connection-editor 1.4.2-1
+notepadqq 0.53.0-1
+noto-fonts 20161003-1
+noto-fonts-cjk 1.004-2
+noto-fonts-emoji 20160714-1
+nvidia 375.26-1
+nvidia-settings 375.26-1
+openbox 3.6.1-3
+openssh 7.4p1-1
+os-prober 1.71-1
+p7zip 16.02-2
+pacaur 4.6.10-1
+pacman 5.0.1-4
+patch 2.7.5-1
+pavucontrol 3.0-4
+pciutils 3.5.2-1
+pcmanfm 1.2.4-2
+pcmciautils 018-7
+pepper-flash 24.0.0.186-1
+perl 5.24.0-2
+pkg-config 0.29.1-2
+plantuml 8052-1
+polkit-gnome 0.105-3
+poppler-glib 0.50.0-1
+powertop 2.8-2
+ppsspp 1.3-1
+primus 20151110-6
+procps-ng 3.3.12-1
+psmisc 22.21-3
+pulseaudio 9.0-1
+pulseaudio-alsa 2-3
+pulseaudio-equalizer 9.0-1
+qemu 2.8.0-1
+qemu-arch-extra 2.8.0-1
+rar 5.3.0-1
+redshift 1.11-3
+reiserfsprogs 3.6.25-1
+rxvt-unicode 9.22-2
+s-nail 14.8.14-1
+screenfetch 3.7.0-1
+scrot 0.8.13-1
+scummvm 1.9.0-1
+sdl2_ttf 2.0.14-1
+sdl_mixer 1.2.12-4
+sed 4.2.2-4
+shadow 4.4-3
+slock 1.4-2
+smartmontools 6.5-1
+spice-protocol 0.12.12-1
+steam 1.0.0.54-1
+sudo 1.8.18.p1-1
+surf 0.7-2
+sysfsutils 2.1.0-9
+systemd-sysvcompat 232-6
+tar 1.29-2
+terminus-font 4.40-2
+terminus-font-ttf 4.40.1-1
+texinfo 6.3-1
+thermald 1.5.4-2
+thinkfan 0.9.3-1
+thunar 1.6.10-3
+thunar-volman 0.8.1-2
+thunderbird-earlybird 52.0a2.20161223004025-1
+tilda 1.3.3-2
+tk 8.6.6-1
+transmission-gtk 2.92-5
+ttf-dejavu 2.37-1
+ttf-font-awesome 4.7.0-1
+ttf-liberation 2.00.1-6
+ttf-roboto 5:131072-1
+tumbler 0.1.31-2
+unzip 6.0-12
+usbmuxd 1.1.0-2
+usbutils 008-1
+util-linux 2.28.2-2
+vertex-icons-git r16.f27e47e-4
+vertex-themes 20161009-1
+vi 1:070224-2
+violetumleditor 2.1.0-2
+virt-manager 1.4.0-2
+virtualbox 5.1.12-1
+vlc 2.2.4-5
+wd719x-firmware 1-3
+which 2.21-2
+wine 2.0rc2-1
+winetricks 20161107-2
+winusb 1.0.11-4
+wpa_supplicant 1:2.6-4
+x86_energy_perf_policy 4.8-1
+xarchiver 0.5.4.7-1
+xbindkeys 1.8.6-1
+xbindkeys_config-gtk2 0.1.3-3
+xclip 0.13-1
+xf86-input-libinput 0.22.0-1
+xf86-input-synaptics 1.8.99.1-1
+xf86-video-intel 1:2.99.917+746+g169c74f-1
+xfsprogs 4.8.0-1
+xorg-server 1.18.4-1
+xorg-server-utils 7.6-4
+xorg-server-xephyr 1.18.4-1
+xorg-twm 1.0.9-1
+xorg-xclock 1.0.7-1
+xorg-xev 1.2.2-1
+xorg-xinit 1.3.4-4
+xournal 0.4.8-2
+xss-lock-git 0.3.0.r4.g1e158fb-1
+xterm 327-1
+yaourt 1.8.1-1
+zip 3.0-7
+zsnes 1.51-19
