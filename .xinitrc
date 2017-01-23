@@ -25,7 +25,7 @@ sh ~/.fehbg &
 xss-lock slock &
 
 #tilda
-tilda &
+#tilda &
 
 #new mousewhell scroll (ThinkPad)
 #tpset() { xinput set-prop "TPPS/2 IBM TrackPoint" "$@"; }
@@ -43,6 +43,7 @@ compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &
 
 #default wm openbox
 exec i3
+#xrandr --output DP1 -auto --right-of eDP1
 #exec openbox-session
 #exec lxde-session
 #exec startkde

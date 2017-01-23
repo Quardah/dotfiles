@@ -266,6 +266,7 @@ bindsym $mod+g mode "togglegaps"
 
 
 bar {
+	output eDP1
 	font pango:FontAwesome 8
 	position bottom
 	status_command i3status

@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 #Set variables
 export QT_STYLE_OVERRIDE=GTK+
+export TERM='linux'
 export EDITOR=nano
 #export GOPATH=/home/jape/go
 export PATH="/home/jape/.bin:$PATH"
@@ -40,6 +41,8 @@ alias 710='cd ~/Documents/LOG710'
 #alias test='echo "salut"'
 alias recompton='compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &'
 alias killnvidia='sudo /usr/share/acpi_call/examples/turn_off_gpu.sh'
+#alias plugged='xrandr --output DP2 --auto --right-of eDP1; feh --bg-fill ~/dotfiles/KingLeonidas1080.jpg'
+alias fixwpaper='feh --bg-fill RIGHT.jpeg --bg-fill LEFT.jpeg --bg-fill CENTER.jpeg' 
 
 # not working need to find a fix, too little ' and " u_u
 #alias totalressources=`ps -eo size,pid,user,command | awk '{ hr=$1/1024 ; printf("%13.6f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }' | sort | grep i3 | grep -v ssh | grep -v grep`

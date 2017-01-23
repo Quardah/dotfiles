@@ -9,7 +9,7 @@
 general {
   output_format = "i3bar"
   colors = true
-  interval = 3
+  interval = 1
 	color_good = "#97bbf7"
 	color_bad = "#ee829f"
 	color_degraded = "#7780a1"
@@ -20,6 +20,8 @@ general {
 #order += "disk /home/"
 order += "volume Master"
 #order += "volume Capture"
+#NEW Jan 12 2017 JPBD
+order += "ethernet _first_"
 order += "wireless _first_"
 #order += "load"
 order += "battery 0"
@@ -29,7 +31,7 @@ order += "tztime local"
 volume Master {
          format = " : %volume"
          format_muted = " : MUTE" 
-		 device = "default"
+		 device = "hw:1"
          mixer = "Master"
          mixer_idx = 0
 }
@@ -52,10 +54,15 @@ volume Master {
 #  format = " ~ %avail "
 #  prefix_type = "decimal"
 #}
+
+ethernet _first_ {
+        format_up = "  %ip "
+        format_down = "  Not Connected "
+}
+
 wireless _first_ {
         format_up = "   %essid, %ip "
         format_down = "  Not Connected "
-
 }
 
 #load {
