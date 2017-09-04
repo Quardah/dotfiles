@@ -25,7 +25,7 @@ sh ~/.fehbg &
 xss-lock slock &
 
 #tilda
-tilda &
+#tilda &
 
 #new mousewhell scroll (ThinkPad)
 #tpset() { xinput set-prop "TPPS/2 IBM TrackPoint" "$@"; }
@@ -37,11 +37,15 @@ tilda &
 #tpset "Device Accel Constant Deceleration" 0.95
 
 # 11 oct 2016 : added compton
-compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &
+#compton -CGb --vsync opengl --config ~/.config/i3/comptonconf &
+
+#load .Xresources
+xrdb .Xresources &
 
 #exec mate-session
 
 #default wm openbox
+#exec mate-session
 exec i3
 #exec openbox-session
 #exec lxde-session

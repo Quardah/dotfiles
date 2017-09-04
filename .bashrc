@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 #Set variables
+export TERM='linux'
 export QT_STYLE_OVERRIDE=GTK+
 export EDITOR=nano
 #export GOPATH=/home/jape/go
@@ -53,11 +54,17 @@ alias fan='cat /proc/acpi/ibm/fan'
 alias cdsteam='cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Steam'
 
 #ThinkPad TV alias here (old; nouveau not present)
+alias VGAon='xrandr --output VGA1 --auto --above eDP1'
+alias VGAoff='xrandr --output VGA1 --off'
+alias DPon='xrandr --output HDMI1 --auto --above eDP1'
+alias DPoff='xrandr --output HDMI1 --off'
+#alias DPon='xrandr --output HDMI2 --auto --above eDP1'
 #alias tvon='xrandr --setprovideroutputsource nouveau modesetting; xrandr --output DP-1-1 --auto --above LVDS2'
 #alias tvoff='xrandr --output DP-1-1 --off; xrandr --setprovideroutputsource nouveau 0x0'
-alias offload='xrandr --setprovideroffloadsink 1 0'
+#alias offload='xrandr --setprovideroffloadsink 1 0'
 #alias offload='xrandr --setprovideroutputsource modesetting NVIDIA-0; xrandr --auto'
-alias offloadoff='xrandr --setprovideroffloadsink 0 0x0'
+#alias offloadoff='xrandr --setprovideroffloadsink 0 0x0'
+alias 80='echo 88888888888888888888888888888888888888888888888888888888888888888888888888888888'
 
 #crap that never worked
 #alias cisco="GTK_THEME=Vertex-Light packettracer"
