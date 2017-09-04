@@ -47,6 +47,7 @@ xrdb .Xresources &
 #default wm openbox
 #exec mate-session
 exec i3
+#xrandr --output DP1 -auto --right-of eDP1
 #exec openbox-session
 #exec lxde-session
 #exec startkde
