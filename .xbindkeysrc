@@ -35,15 +35,10 @@
 
 
 
-#Mute Audio
+#Toggle mute
 "amixer sset Master toggle"
     m:0x0 + c:121
     XF86AudioMute 
-
-#Mute Mic
-"amixer sset Capture toggle"
-    m:0x0 + c:198
-    XF86AudioMicMute 
 
 #Vol +
 "amixer sset Master 5%+"
@@ -54,6 +49,46 @@
 "amixer sset Master 5%-"
     m:0x0 + c:122
     XF86AudioLowerVolume 
+
+#Toggle mic mute
+"amixer sset Capture toggle"
+    m:0x0 + c:198
+    XF86AudioMicMute 
+
+#dmenu_run
+"dmenu_run -b -f -fn 'Terminus-10' -nb '#1f222d' -nf '#ffffff' -sb '#252936'"
+    m:0x0 + c:156
+    XF86Launch1 
+
+#slock
+"slock"
+    m:0x2040 + c:133
+    Mod4 + Super_L 
+
+#acpi -b
+"notify-send -u critical -t 2000 "$(acpi -b)""
+    m:0x0 + c:244
+    XF86Battery 
+
+#kcalc
+"kcalc"
+    m:0x0 + c:148
+    XF86Calculator 
+
+#pkill kcalc
+"pkill kcalc"
+    m:0x2000 + c:180
+    XF86HomePage 
+
+#Backlight +
+"xbacklight -inc 4"
+    m:0x0 + c:233
+    XF86MonBrightnessUp 
+
+#Backlight -
+"xbacklight -dec 4"
+    m:0x0 + c:232
+    XF86MonBrightnessDown 
 
 #
 # End of xbindkeys configuration
